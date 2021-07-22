@@ -2,7 +2,7 @@ import json
 
 from django.conf import settings
 
-from captcha._compat import (
+from django_google_recaptcha._compat import (
     build_opener, ProxyHandler, PY2, Request, urlencode
 )
 from captcha.constants import DEFAULT_RECAPTCHA_DOMAIN

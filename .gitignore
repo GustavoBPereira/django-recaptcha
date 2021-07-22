@@ -11,3 +11,4 @@ dist/
 coverage.xml
 pep8.txt
 .tox
+.idea

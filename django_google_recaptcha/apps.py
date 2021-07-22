@@ -1,7 +1,7 @@
 from django.apps import AppConfig
 from django.core.checks import register, Tags
 
-from captcha.checks import recaptcha_key_check
+from django_google_recaptcha.checks import recaptcha_key_check
 
 
 class CaptchaConfig(AppConfig):

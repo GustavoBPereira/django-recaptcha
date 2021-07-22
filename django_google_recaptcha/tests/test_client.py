@@ -8,7 +8,7 @@ except ImportError:
 from django import forms
 from django.test import TestCase, override_settings
 
-from captcha import client, fields
+from django_google_recaptcha import client, fields
 
 
 class DefaultForm(forms.Form):

@@ -12,10 +12,10 @@ if django.VERSION[0] < 2:
 else:
     from django.utils.translation import gettext_lazy as _
 
-from captcha import client
-from captcha._compat import HTTPError
-from captcha.constants import TEST_PRIVATE_KEY, TEST_PUBLIC_KEY
-from captcha.widgets import ReCaptchaV2Checkbox, ReCaptchaBase
+from django_google_recaptcha import client
+from django_google_recaptcha._compat import HTTPError
+from django_google_recaptcha.constants import TEST_PRIVATE_KEY, TEST_PUBLIC_KEY
+from django_google_recaptcha.widgets import ReCaptchaV2Checkbox, ReCaptchaBase
 
 
 logger = logging.getLogger(__name__)

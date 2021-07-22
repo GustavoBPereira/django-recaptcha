@@ -7,7 +7,7 @@ from django.core.checks import Error
 from django.core.exceptions import ImproperlyConfigured
 from django.test import TestCase, override_settings
 
-import captcha
+import django_google_recaptcha
 
 
 class TestInit(TestCase):

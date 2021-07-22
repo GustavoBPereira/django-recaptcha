@@ -7,9 +7,9 @@ from django import forms
 from django.core.exceptions import ImproperlyConfigured
 from django.test import TestCase, override_settings
 
-from captcha import fields, widgets
-from captcha._compat import HTTPError
-from captcha.client import RecaptchaResponse
+from django_google_recaptcha import fields, widgets
+from django_google_recaptcha._compat import HTTPError
+from django_google_recaptcha.client import RecaptchaResponse
 
 
 class DefaultForm(forms.Form):
