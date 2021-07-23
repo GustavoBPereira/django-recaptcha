@@ -5,7 +5,7 @@ from django_google_recaptcha.checks import recaptcha_key_check
 
 
 class CaptchaConfig(AppConfig):
-    name = "captcha"
+    name = "django_google_recaptcha"
     verbose_name = "Django reCAPTCHA"
 
     def ready(self):
