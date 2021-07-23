@@ -4,7 +4,7 @@ from django.conf import settings
 from django.forms import widgets
 
 from django_google_recaptcha._compat import urlencode
-from captcha.constants import DEFAULT_RECAPTCHA_DOMAIN
+from django_google_recaptcha.constants import DEFAULT_RECAPTCHA_DOMAIN
 
 
 class ReCaptchaBase(widgets.Widget):
