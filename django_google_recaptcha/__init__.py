@@ -18,4 +18,4 @@ for variable, instance_type in SETTINGS_TYPES.items():
             "Setting %s is not of type" % variable, instance_type
         )
 
-default_app_config = "captcha.apps.CaptchaConfig"
+default_app_config = "django_google_recaptcha.apps.CaptchaConfig"
