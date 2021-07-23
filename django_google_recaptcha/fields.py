@@ -44,8 +44,8 @@ class ReCaptchaField(forms.CharField):
                 " must be a subclass of captcha.widgets.ReCaptchaBase"
             )
 
-        # reCAPTCHA fields are always required.
-        self.required = True
+        self.required = False
+        self.label = ''
 
         # Setup instance variables.
         self.private_key = private_key or getattr(
