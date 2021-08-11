@@ -36,6 +36,7 @@ Tested with:
 * Django 3.0 supports Python 3.6, 3.7 and 3.8.
 We highly recommend and only officially support the latest release of each series.
 
+test github edit
 
 Installation
 ------------
