@@ -85,7 +85,7 @@ The quickest way to add reCAPTCHA to a form is to use the included
 .. code-block:: python
 
     from django import forms
-    from captcha.fields import ReCaptchaField
+    from django_google_recaptcha.fields import ReCaptchaField
 
     class FormWithCaptcha(forms.Form):
         captcha = ReCaptchaField()
@@ -120,8 +120,8 @@ To make use of widgets other than the default Google reCAPTCHA V2 - Checkbox wid
 .. code-block:: python
 
     from django import forms
-    from captcha.fields import ReCaptchaField
-    from captcha.widgets import ReCaptchaV2Invisible
+    from django_google_recaptcha.fields import ReCaptchaField
+    from django_google_recaptcha.widgets import ReCaptchaV2Invisible
 
     class FormWithCaptcha(forms.Form):
         captcha = ReCaptchaField(widget=ReCaptchaV2Invisible)
